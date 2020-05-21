@@ -10,4 +10,5 @@ Contains basic webpack setup for static sites with multiple pages
 
 ## Configuration
 
-Each javascript file should be improted in index.js which will get bundeled into dist folder. All css should be imported in main.css found in css folder
+- Inside src/js is index.js which is getting bundled to dist folder.
+- Css main.css is imported in index.js so its bundled in same file. For this we use `style-loader` and `css-loader`
